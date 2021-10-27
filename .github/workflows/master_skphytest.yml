@@ -65,6 +65,6 @@ jobs:
           app-name: 'skphytest'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DAA19E52B0554B11B18ECC06854CF9DC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E7EBCA191EC146678988891A690AFEE3 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
